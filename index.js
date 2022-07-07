@@ -17,7 +17,7 @@ client.on("ready", () => {
 client.on("message", msg => {
 
     if (msg.content.includes('spiderman') || msg.content.includes('spidey')) {
-        msg.channel.send({files: ['./iWantSpiderman'] })
+        msg.channel.send({files: ['./spiderman.png'] })
     }
 
     if (msg.content.includes('morb')) {
