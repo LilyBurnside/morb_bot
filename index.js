@@ -16,11 +16,11 @@ client.on("ready", () => {
 
 client.on("message", msg => {
 
-    if (msg.content.includes('spiderman') || msg.content.includes('spidey')) {
+    if (msg.content.includes('spiderman') || msg.content.includes('spidey') || msg.content.includes('Spiderman') || msg.content.includes('Spidey')) {
         msg.channel.send({files: ['./spiderman.png'] })
     }
 
-    if (msg.content.includes('morb')) {
+    if (msg.content.includes('morb') || msg.content.includes('Morb')) {
         msg.channel.send({files: ['./its-morbin-time.webp']})
     }
 
